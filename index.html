@@ -1,0 +1,349 @@
+<!DOCTYPE html >
+<head>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to be a web programmer</title>
+    <meta name="description" content="This the topic about full stack developer" />
+
+    <link rel="stylesheet"  href="">  
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/computer.css') }}"> 
+
+</head>
+
+
+ <!-- font awesome cdn link  -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+ <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+ <!-- custom css file link  -->
+ <link rel="stylesheet" href="/static/css/computer.css">
+     <!-- font awesome cdn link  -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+ 
+     <!-- custom css file link  -->
+     <link rel="stylesheet" href="/static/css/computer.css">
+ 
+
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+
+
+
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;600;700&family=Noto+Sans+Arabic:wght@300;400;500;600&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<body>
+
+
+    <!-- header section starts  -->
+
+<header class="header">
+
+  <a href="#" class="logo"> <i class="fas fa-hiking"></i> travel. </a>
+
+  <nav class="navbar">
+      <div id="nav-close" class="fas fa-times"></div>
+      <a href="#home">الصفحة الرئسية</a>
+      <a href="#about">خدمة ذكاء </a>
+      <a href="#shop">من نحن</a>
+      <a href="#packages">تواصل معنا</a>
+
+  </nav>
+
+  <div class="icons">
+      <div id="menu-btn" class="fas fa-bars"></div>
+  </div>
+
+</header>
+
+<!-- header section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- home section starts  -->
+
+<div class="home" id="home">
+
+  <div class="swiper home-slider">
+
+      <div class="swiper-wrapper">
+
+          <div class="swiper-slide">
+              <div class="box" style="background: url(1.jfif) no-repeat; margin: 80px 0 0 0; height: 330px;">
+                  <div class="content">
+                     
+                      
+                  </div>
+              </div>
+          </div>
+
+          <div class="swiper-slide">
+              <div class="box second" style="background: url(2.jfif) no-repeat; margin: 80px 0 0 0; height: 330px;">
+                  <div class="content">
+                      <p>الاحساء أكبر واحة نخيل في العالم</p>
+                  </div>
+              </div>
+          </div>
+
+          <div class="swiper-slide">
+              <div class="box" style="background: url(3.jfif) no-repeat; margin: 80px 0 0 0; height: 330px;" >
+                  <div class="content">
+                  </div>
+              </div>
+          </div>
+
+      </div>
+
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+
+  </div>
+
+</div>
+
+<!-- home section ends -->
+
+
+
+
+<section class="tabs">
+  <div class="tabs__head">
+    <div class="tabs__toggle is-active">
+      <span class="tabs__name">خدمات</span>
+    </div>
+   
+  </div>
+
+</section>
+
+
+
+
+
+<section class="category">
+
+  <h1 class="heading"></h1>
+
+  <div class="box-container">
+
+      
+    <div class="box">
+      
+      <img src="DL.png" alt="">
+      <h3>خدمة الذكاء الاصطناعي</h3>
+      <p>هذا الخدمة تمكنك من تصنيف نوع الحشرة الضارة  <br> لشجرة النخيل من خلال تصوير الحشرة ورفع الصورة</p>
+      <p></p>
+     
+  </div>
+
+  </div>
+  
+
+  <hr class="h">
+</section>
+
+<form action = "/success" method = "post" enctype="multipart/form-data" class="form">  
+
+  <input type="file" name="file" />  
+  <input type = "submit" value="رفق">  
+</form> 
+
+
+
+
+
+
+
+
+
+
+
+<section class="skill-container">
+  <div class="skill">
+      <div class="outer">
+          <div class="inner">
+              <div class="number" data-num="90">
+              </div>
+          </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+          <defs>
+              <linearGradient id="GradientColor">
+                  <stop offset="0%" stop-color="#e91e63" />
+                  <stop offset="100%" stop-color="#673ab7" />
+              </linearGradient>
+          </defs>
+          <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+      </svg>
+      <h5 class="text">عدد النخيل في الممكلة</h5>
+  </div>
+
+
+
+  <div class="skill">
+      <div class="outer">
+          <div class="inner">
+              <div class="number" data-num="65">
+              </div>
+          </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+          <defs>
+              <linearGradient id="GradientColor">
+                  <stop offset="0%" stop-color="#e91e63" />
+                  <stop offset="100%" stop-color="#673ab7" />
+              </linearGradient>
+          </defs>
+          <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+      </svg>
+
+      <h5 class="text">عدد حبات التمر في الممكلة</h5>
+  </div>
+
+
+
+  <div class="skill">
+      <div class="outer">
+          <div class="inner">
+              <div class="number" data-num="80">
+              </div>
+          </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+          <defs>
+              <linearGradient id="GradientColor">
+                  <stop offset="0%" stop-color="#e91e63" />
+                  <stop offset="100%" stop-color="#673ab7" />
+              </linearGradient>
+          </defs>
+          <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+      </svg>
+      <h5 class="text">عدد حبات الرطب في المملكة</h5>
+    </section>
+  
+</div>
+<script src="/static/css/script.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+<footer class="footer">
+  <div class="fotter" style="direction: rtl;">
+  <div class="container">
+    <div class="row">
+<div>
+
+</div>
+      <div class="footer-col">
+        <h4>خدمات</h4>
+        <ul>
+          <li><a href="#">خدمة أفراد</a></li>
+          <li><a href="#">خدمة حكومية</a></li>
+          <li><a href="#">خدمة ذكاء</a></li>
+        </ul>
+      </div>
+
+
+
+      <div class="footer-col">
+        <h4>التواصل</h4>
+        <ul>
+          <li><a href="#">تواصل معنا</a></li>
+          <li><a href="#">من نحن</a></li>
+          <li><a href="#">returns</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>روابط ذات صلة</h4>
+        <ul>
+          <li><a href="#">وزارة البيئة والميه والزراعة</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>follow us</h4>
+        <div class="social-links">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="bottom-details">
+    <div class="bottom_text">
+      <span class="copyright_text"><a href="#"></a>جميع الحقوق محفوظة لموقع يرقة  ©</span>
+      <span class="policy_terms">
+      </span>
+    </div>
+  </div>
+  </div>
+</div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+  
+  
+      
+  
+<script type="text/javascript">
+var swiper = new Swiper(".home-slider", {
+    loop:true, 
+    grabCursor:true,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+});
+</script>
+        
+            
+
+    
+</body>
+
+</html>
+
+
+
+
